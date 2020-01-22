@@ -1,0 +1,54 @@
+body {
+  color: #fff;
+  font-family: sans-serif;
+  background-image: url("smiling.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* main {
+  background-color: cornsilk;
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  padding: 16px;
+  top: 30%;
+} */
+
+main {
+  margin: auto;
+  width: 50%;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+}
+h1 {
+  text-align: center;
+}
+#h1 {
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 200;
+  padding: 12px;
+}
+main p {
+  padding-left: 8px;
+  font-weight: 200;
+}
+input,
+select {
+  width: 95%;
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+}
+select {
+  width: 100%;
+}
+form button {
+  background-color: #e25829;
+  color: #fff;
+  border: 0;
+  padding: 10px 30px;
+  border-radius: 2px;
+  margin-top: 16px;
+}
