@@ -1,0 +1,69 @@
+@keyframes input {
+  0% {
+    background-color: #e25829;
+  }
+  50% {
+    background-color: blueviolet;
+  }
+  100% {
+    background-color: crimson;
+  }
+}
+body {
+  color: #fff;
+  font-family: sans-serif;
+  background-image: url("smiling.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#h1,
+h1 {
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 200;
+  padding: 12px;
+  text-align: center;
+}
+
+main {
+  margin: auto;
+  width: 50%;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  position: static;
+}
+
+form p {
+  padding-left: 8px;
+  font-weight: 200;
+}
+form input,
+form select {
+  width: 95%;
+  background-color: #fff;
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  transition: background-color 0.5s;
+}
+form .stack {
+  width: 100%;
+}
+form input:focus {
+  animation-name: input;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+}
+form button {
+  background-color: #e25829;
+  border: 0;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 6px;
+  margin-top: 16px;
+}
+
+/*# sourceMappingURL=style.css.map */
